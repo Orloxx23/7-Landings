@@ -1,43 +1,51 @@
-<div style="display: flex; gap: 10px">
-    <div style="width: 30%">
-        <img src="https://i.imgur.com/0aBt2aY.jpg"/>
-    </div>
-    <div style="width: 70%">
-    
-# 7 Landings - Desafío
-¡Bienvenido a mi desafío "7 Landings"! Me he propuesto la meta de crear una landing page cada día durante una semana, con el objetivo de mejorar y perfeccionar mis habilidades en el desarrollo web. La idea es que cada página web que construya sea superior a la anterior, incorporando nuevas técnicas y conceptos aprendidos en el camino.
+<img align="right" height="600" src="https://i.imgur.com/0aBt2aY.jpg"  />
 
-## Objetivo
+###
 
-El propósito principal de este desafío es impulsar mi capacidad en el desarrollo web, permitiéndome explorar y experimentar con diversas tecnologías. Aunque tengo la libertad de elegir las herramientas que desee para construir cada sitio, me he impuesto la regla de no utilizar plantillas preexistentes ni código ya creado. Cada línea de código será única y escrita desde cero.
+<h1 align="left">7 Landings - Desafío</h1>
 
-## Contenido del Repositorio
+###
 
-En este repositorio, encontrarás el código fuente de cada landing page creada durante el desafío. Cada carpeta estará etiquetada con un nombre al azar, y dentro de cada carpeta se alojará el código utilizado en la creación de la página respectiva.
+<p align="left">¡Bienvenido a mi desafío "7 Landings"! Me he propuesto la meta de crear una landing page cada día durante una semana, con el objetivo de mejorar y perfeccionar mis habilidades en el desarrollo web. La idea es que cada página web que construya sea superior a la anterior, incorporando nuevas técnicas y conceptos aprendidos en el camino.</p>
 
-## Reglas del Desafío
+###
 
-Sin Plantillas Preexistentes: No utilizaré plantillas o código preexistente para la creación de las landings. Cada proyecto será una creación original y única.
+<h2 align="left">Objetivo</h2>
 
-Experimentación Libre: Tengo la libertad de experimentar con cualquier tecnología que desee. Puedo probar nuevas bibliotecas, marcos de trabajo o enfoques creativos.
+###
 
-Publicación del Código: Todo el código fuente estará disponible en este repositorio para aquellos que deseen revisar y aprender de mis experiencias.
+<p align="left">El propósito principal de este desafío es impulsar mi capacidad en el desarrollo web, permitiéndome explorar y experimentar con diversas tecnologías. Aunque tengo la libertad de elegir las herramientas que desee para construir cada sitio, me he impuesto la regla de no utilizar plantillas preexistentes ni código ya creado. Cada línea de código será única y escrita desde cero.</p>
 
-## Progreso
+###
 
-Día 1:
-Día 2:
-Día 3:
-Día 4:
-Día 5:
-Día 6:
-Día 7:
+<h2 align="left">Contenido del Repositorio</h2>
 
-## Inspiración
+###
 
-Este desafío está inspirado en el deseo constante de superación y aprendizaje. Cada landing page representa una oportunidad para aplicar y mejorar mis habilidades, así como para documentar mi progreso a lo largo de esta emocionante semana de desarrollo web.
+<p align="left">En este repositorio, encontrarás el código fuente de cada landing page creada durante el desafío. Cada carpeta estará etiquetada con un nombre al azar, y dentro de cada carpeta se alojará el código utilizado en la creación de la página respectiva.</p>
 
-¡Acompáñame en este viaje de descubrimiento y mejora continua!
+###
 
-</div>
-</div>
+<h2 align="left">Reglas del Desafío</h2>
+
+###
+
+<p align="left">Sin Plantillas Preexistentes: No utilizaré plantillas o código preexistente para la creación de las landings. Cada proyecto será una creación original y única.<br><br>Experimentación Libre: Tengo la libertad de experimentar con cualquier tecnología que desee. Puedo probar nuevas bibliotecas, marcos de trabajo o enfoques creativos.<br><br>Publicación del Código: Todo el código fuente estará disponible en este repositorio para aquellos que deseen revisar y aprender de mis experiencias.</p>
+
+###
+
+<h2 align="left">Progreso</h2>
+
+###
+
+<p align="left">- Día 1: [BiteBliss](https://github.com/Orloxx23/7-Landings/tree/main/DIA1)<br>- Día 2:<br>- Día 3:<br>- Día 4:<br>- Día 5:<br>- Día 6:<br>- Día 7:</p>
+
+###
+
+<h2 align="left">Inspiración</h2>
+
+###
+
+<p align="left">Este desafío está inspirado en el deseo constante de superación y aprendizaje. Cada landing page representa una oportunidad para aplicar y mejorar mis habilidades, así como para documentar mi progreso a lo largo de esta emocionante semana de desarrollo web.<br><br>¡Acompáñame en este viaje de descubrimiento y mejora continua!</p>
+
+###

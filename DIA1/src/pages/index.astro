@@ -1,0 +1,255 @@
+---
+import Layout from "../layouts/Layout.astro";
+import MenuCard from "../components/MenuCard.astro";
+---
+
+<Layout title="BiteBliss">
+  <header
+    id={"header-nav"}
+    class="flex h-20 w-full items-center px-6 md:px-12 2xl:px-24 text-white fixed top-0 z-50"
+  >
+    <a class="flex items-center p-2 rounded-full bg-white" href="/">
+      <img src="/assets/images/burger.svg" class="size-7" alt="" />
+      <span class="sr-only">Burger Restaurant</span>
+    </a>
+    <nav class="ml-auto flex gap-4 sm:gap-6">
+      <a
+        class="text-sm font-medium hover:underline underline-offset-4"
+        href="#home"
+      >
+        Inicio
+      </a>
+      <a
+        class="text-sm font-medium hover:underline underline-offset-4"
+        href="#menu"
+      >
+        Menu
+      </a>
+      <a
+        class="text-sm font-medium hover:underline underline-offset-4"
+        href="#history"
+      >
+        Historia
+      </a>
+      <a
+        class="text-sm font-medium hover:underline underline-offset-4"
+        href="#contact"
+      >
+        Contacto
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="h-[50vh] md:h-[90vh] relative" id="home">
+      <div
+        class="absolute top-0 left-0 bg-black/70 size-full p-6 md:p-12 2xl:p-24"
+      >
+        <div
+          class="container text-white flex flex-col gap-4 2xl:gap-8 justify-center h-full"
+        >
+          <h1 class="text-xl md:text-5xl 2xl:text-7xl font-bold text-balance">
+            Hamburguesas BiteBliss - ¡Sabor Inigualable en Cada Bocado!
+          </h1>
+          <h2 class="md:text-2xl 2xl:text-4xl">
+            Descubre una Experiencia Única
+          </h2>
+        </div>
+      </div>
+      <img
+        src="/assets/images/burger.jpg"
+        class="size-full object-cover"
+        alt=""
+      />
+    </section>
+
+    <section class="flex justify-center items-center relative z-10">
+      <div
+        class="container shadow-xl min-h-28 p-6 md:p-1 flex flex-col md:flex-row justify-center items-center gap-10 bg-primaryDark md:rounded-full md:absolute -top-20"
+      >
+        <img
+          src="/assets/images/burger.svg"
+          class="size-32 hidden md:flex"
+          alt=""
+        />
+        <p class="text-pretty w-full md:w-1/2 text-lg text-white">
+          ¡Bienvenido a BiteBliss, donde cada hamburguesa es una obra maestra
+          culinaria! Sumérgete en una experiencia gastronómica única, donde la
+          calidad se encuentra con la creatividad para ofrecerte las mejores
+          hamburguesas que jamás hayas probado.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="flex flex-col gap-6 p-6 md:p-12 2xl:p-24 mt-0 md:mt-12 2xl:mt-0"
+      id="menu"
+    >
+      <h2 class="text-2xl md:text-3xl 2xl:text-4xl font-bold text-primaryDark">
+        Nuestro Menú
+      </h2>
+      <div class="p-4 bg-orange-100 rounded-2xl flex gap-4">
+        <p class="text-xl text-pretty">
+          Desde la clásica "BiteBliss Original" hasta las innovadoras "aHuevada"
+          y "queSuda", nuestro menú te invita a explorar sabores audaces y
+          combinaciones inesperadas. Utilizamos ingredientes frescos y de la más
+          alta calidad para garantizar que cada bocado sea una explosión de
+          deliciosos sabores.
+        </p>
+      </div>
+
+      <div class="flex gap-8 md:flex-row flex-col">
+        <MenuCard
+          title="BiteBliss Original"
+          image="/assets/images/special1.jpg"
+        />
+        <MenuCard
+          title="BiteBliss aHuevada"
+          image="/assets/images/special2.jpg"
+        />
+        <MenuCard
+          title="BiteBliss queSuda"
+          image="/assets/images/special3.jpg"
+        />
+      </div>
+
+      <div
+        class="p-4 min-h-36 bg-orange-100 rounded-2xl flex justify-between gap-4 container relative"
+      >
+        <div class="w-3/4 space-y-3">
+          <h2 class="text-xl md:text-xl 2xl:text-2xl font-bold">
+            Opciones para Todos los Gustos
+          </h2>
+          <p class="text-pretty text-xl">
+            ¿Eres amante de la carne, vegetariano o vegano? En BiteBliss,
+            tenemos opciones para todos los gustos. Nuestras hamburguesas
+            vegetarianas y veganas están cuidadosamente diseñadas para
+            satisfacer tus antojos sin sacrificar el sabor.
+          </p>
+        </div>
+        <img
+          src="/assets/images/mrburger.png"
+          class="absolute size-48 -right-5 md:right-32 bottom-0"
+          alt=""
+          draggable="false"
+        />
+      </div>
+    </section>
+
+    <section
+      class="bg-primaryDark w-full text-white flex flex-col md:flex-row overflow-hidden pattern md:h-[70vh]"
+      id="history"
+    >
+      <div
+        class="p-6 md:p-12 2xl:p-24 w-full md:w-1/2 flex justify-center flex-col gap-6"
+      >
+        <h2 class="text-2xl md:text-3xl 2xl:text-5xl font-bold">
+          Nuestra Historia
+        </h2>
+        <p class="text-xl md:text-2xl text-pretty">
+          En BiteBliss, nuestra historia comienza con una pasión compartida por
+          la hamburguesa perfecta. Cada receta es el resultado de años de
+          perfeccionamiento y amor por la cocina. Queremos compartir nuestra
+          devoción por las hamburguesas gourmet contigo, brindándote una
+          experiencia única en cada visita.
+        </p>
+      </div>
+      <div class="w-1/2 custom-clip2 hidden md:flex">
+        <img
+          src="/assets/images/chef.jpg"
+          class="w-full object-cover object-bottom"
+          alt=""
+          draggable="false"
+        />
+      </div>
+      <div class="w-full custom-clip1 flex md:hidden">
+        <img
+          src="/assets/images/chef.jpg"
+          class="w-full object-cover object-bottom"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="p-6 md:p-12 2xl:p-24">
+      <div
+        class="bg-secondary container min-h-32 rounded-2xl md:rounded-full flex text-black relative p-4"
+      >
+        <img
+          src="/assets/images/safe.png"
+          class="absolute size-48 bottom-0 hidden md:flex"
+          alt=""
+          draggable="false"
+        />
+        <div class="flex flex-col gap-2 pl-0 md:pl-48 justify-center">
+          <h2 class="font-bold text-2xl md:text-3xl 2xl:text-3xl">
+            Compromiso con la Calidad
+          </h2>
+          <p class="text-xl 2xl:text-2xl">
+            En BiteBliss, solo utilizamos ingredientes frescos y de alta
+            calidad. Nuestras carnes son seleccionadas con esmero, nuestros
+            vegetales son de temporada y nuestros condimentos son auténticos.
+            Nos esforzamos por ofrecerte hamburguesas que no solo satisfacen tu
+            hambre, sino que también deleitan tu paladar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="px-6 md:px-12 2xl:px-24 flex flex-col md:flex-row gap-10 h-auto md:h-[70vh] relative mb-24"
+      id="contact"
+    >
+      <div class="size-full aspect-square">
+        <img
+          src="/assets/images/location.jpg"
+          class="size-full object-cover rounded-2xl"
+          alt=""
+        />
+      </div>
+      <div class="w-full space-y-2 sticky top-0 right-0 h-fit">
+        <h2 class="font-bold text-xl md:text-3xl">
+          Encuentra tu BiteBliss más Cercano
+        </h2>
+        <h3 class="font-medium text-xl md:text-3xl">
+          Visítanos o Pide a Domicilio
+        </h3>
+        <p class="text-lg md:text-xl">
+          ¡No esperes más para probar nuestras deliciosas hamburguesas!
+          Encuentra el BiteBliss más cercano y visítanos para disfrutar de una
+          experiencia gastronómica inolvidable. ¿Prefieres quedarte en casa? No
+          hay problema. Pide a domicilio y lleva el sabor de BiteBliss
+          directamente a tu puerta.
+        </p>
+      </div>
+    </section>
+
+    <footer class="bg-primaryDark py-4 px-6 md:px-12 2xl:px-24">
+      <div class="container mx-auto flex items-center justify-between">
+        <div class="text-white">
+          <p class="font-bold">BiteBliss</p>
+          <p class="text-xs">Creado por Orlando Mina</p>
+        </div>
+        <div class="text-white flex flex-col items-end">
+          <p class="font-bold">7 Landings</p>
+          <p class="text-xs">1/7</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  .custom-clip1 {
+    clip-path: circle(85.4% at 50% 100%);
+  }
+
+  .custom-clip2 {
+    clip-path: circle(100.3% at 100% 49%);
+  }
+
+  .pattern {
+    background-color: #a41116;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%23c04545' fill-opacity='0.4' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
+  }
+</style>

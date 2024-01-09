@@ -2,7 +2,9 @@
     <div style="width: 30%">
         <img src="https://i.imgur.com/0aBt2aY.jpg"/>
     </div>
-    <div style="width: 70%"># 7 Landings - Desafío
+    <div style="width: 70%">
+    
+# 7 Landings - Desafío
 ¡Bienvenido a mi desafío "7 Landings"! Me he propuesto la meta de crear una landing page cada día durante una semana, con el objetivo de mejorar y perfeccionar mis habilidades en el desarrollo web. La idea es que cada página web que construya sea superior a la anterior, incorporando nuevas técnicas y conceptos aprendidos en el camino.
 
 ## Objetivo

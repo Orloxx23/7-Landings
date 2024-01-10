@@ -1,0 +1,23 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section customClass="min-h-[30vh] md:h-[30vh] w-full overflow-hidden">
+  <div class="w-full flex gap-10 relative">
+    <div class="w-1/2 h-full overflow-hidden hidden md:flex">
+      <video class="absolute w-1/2 -top-[27rem] h-[100vh]" autoplay muted loop>
+        <source src="/videos/intro.webm" />
+        <track kind="captions" />
+      </video>
+    </div>
+    <div
+      class="w-full md:w-1/2 flex justify-center items-center min-h-[30vh] md:h-[30vh]"
+    >
+      <p class="text-2xl">
+        Bienvenido a Spotify, donde la música cobra vida. Explora millones de
+        canciones, crea listas de reproducción personalizadas y descubre nuevos
+        artistas. La mejor experiencia musical, solo a un clic de distancia.
+      </p>
+    </div>
+  </div>
+</Section>

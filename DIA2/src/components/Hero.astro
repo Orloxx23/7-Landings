@@ -1,0 +1,27 @@
+---
+import PlaylistCard from "./PlaylistCard";
+import Section from "./Section.astro";
+
+import latino from "../data/playlists/latino.json";
+---
+
+<Section customClass="h-[70vh] bg-primary items-center pattern">
+  <div class="w-full h-full flex items-center">
+    <div class="w-2/3 flex flex-col gap-4">
+      <h1 class="text-8xl font-bold text-balance">
+        Descubre la Magia de Spotify
+      </h1>
+      <h2 class="text-4xl font-medium opacity-80">
+        Tu destino para la música perfecta
+      </h2>
+    </div>
+    <div class="w-1/3 flex justify-center items-center">
+      <PlaylistCard
+        imageUrl={latino.images[0].url}
+        title={latino.name}
+        description={latino.description}
+        audio={latino.tracks.items[0].track.preview_url}
+      />
+    </div>
+  </div>
+</Section>

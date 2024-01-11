@@ -6,7 +6,7 @@
 
 ![preview](https://i.imgur.com/8GLbLHw.png)
 
-[Ver 👀]()
+[Ver 👀](https://colombia-rosy.vercel.app/)
 
 **Estoy haciendo el reto al reves!!!** 
 

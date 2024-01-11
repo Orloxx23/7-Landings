@@ -38,7 +38,7 @@
 
 ###
 
-<p align="left">- Día 1: [BiteBliss](https://animated-entremet-927dda.netlify.app/)<br>- Día 2: [Spotify](https://jolly-sunshine-8f83a6.netlify.app/)<br>- Día 3:<br>- Día 4:<br>- Día 5:<br>- Día 6:<br>- Día 7:</p>
+<p align="left">- Día 1: [BiteBliss](https://animated-entremet-927dda.netlify.app/)<br>- Día 2: [Spotify](https://jolly-sunshine-8f83a6.netlify.app/)<br>- Día 3: [Departamentos de Colombia](https://colombia-rosy.vercel.app/)<br>- Día 4:<br>- Día 5:<br>- Día 6:<br>- Día 7:</p>
 
 ###
 

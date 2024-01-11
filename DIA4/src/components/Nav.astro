@@ -1,0 +1,46 @@
+---
+const links = [
+  {
+    label: "Github",
+    url: "https://github.com/Orloxx23/vlresports",
+  },
+  {
+    label: "Docs",
+    url: "https://vlresports.vercel.app/",
+  },
+];
+---
+
+<header class="p-4">
+  <div class="container flex justify-between h-16 mx-auto">
+    <a
+      rel="noopener noreferrer"
+      href="/"
+      aria-label="Back to homepage"
+      title="Valorant Esports API"
+      class="flex items-center p-2"
+    >
+      <img
+        src="/logo.png"
+        class="size-20 object-contain"
+        alt="API Logo"
+        draggable="false"
+      />
+    </a>
+    <ul class="items-stretch space-x-3 flex">
+      {
+        links.map((link, index) => (
+          <li class="flex">
+            <a
+              rel="noopener noreferrer"
+              href={link.url}
+              class="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-red-400 hover:border-red-400"
+            >
+              {link.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</header>

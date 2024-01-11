@@ -1,0 +1,67 @@
+---
+
+---
+
+<section class="py-6 bg-black text-white relative">
+  <div
+    class="container mx-auto flex flex-col items-center justify-center p-4 space-y-8 md:p-10 md:px-24 xl:px-48 relative z-10"
+  >
+    <h1 class="text-5xl font-bold leadi text-center">
+      Build the Ultimate Valorant Esports Experience
+    </h1>
+    <p class="pt-2 pb-8 text-xl font-medium text-center">
+      Give your users the ultimate Valorant Esports experience by leveraging the
+      power of our API. Elevate your website, engage your audience, and stay at
+      the forefront of Valorant Esports with real-time, accurate, and
+      comprehensive data.
+    </p>
+    <a
+      href="https://vlresports.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span class="button_top"> Get started</span>
+    </a>
+  </div>
+  <img
+    src="/vlr.webp"
+    class="absolute top-0 left-0 w-full h-full object-cover object-center z-0 opacity-25"
+    alt=""
+  />
+</section>
+
+<style>
+  a {
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #ff5252;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+  }
+
+  .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+  }
+
+  a:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+  }
+
+  a:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+  }
+</style>
